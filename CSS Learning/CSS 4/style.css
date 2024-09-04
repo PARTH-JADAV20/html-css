@@ -1,0 +1,201 @@
+body {
+    text-align: center;
+}
+
+div {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+
+.dib {
+    height: 100px;
+    width: 300px;
+}
+
+#box1 {
+    background-color: aqua;
+    flex-shrink: 2;
+}
+
+#box2 {
+    background-color: pink;
+    flex-grow: 3;
+}
+
+#box3 {
+    background-color: darkkhaki;
+}
+
+#box4 {
+    background-color: indianred;
+}
+
+#box5 {
+    background-color: slateblue;
+}
+
+#containerr {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#box11 {
+    background-color: aqua;
+}
+
+#box22 {
+    background-color: pink;
+    flex-grow: 0.1;
+}
+
+#box33 {
+    background-color: darkkhaki;
+}
+
+#box44 {
+    background-color: indianred;
+}
+
+#box55 {
+    background-color: slateblue;
+}
+
+#containerrr {
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#box111 {
+    background-color: aqua;
+}
+
+#box222 {
+    background-color: pink;
+}
+
+#box333 {
+    background-color: darkkhaki;
+}
+
+#box444 {
+    background-color: indianred;
+}
+
+#box555 {
+    background-color: slateblue;
+}
+
+#container1 {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.divv {
+    height: 100px;
+    width: 300px;
+}
+
+#box10 {
+    background-color: aqua;
+}
+
+#box20 {
+    background-color: pink;
+}
+
+#box30 {
+    background-color: darkkhaki;
+}
+
+#box40 {
+    background-color: indianred;
+}
+
+#box50 {
+    background-color: slateblue;
+    align-self: flex-start;
+}
+
+#container10 {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    align-content: flex-end;
+}
+
+#box100 {
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+}
+
+#box200 {
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+}
+
+#box300 {
+    height: 75px;
+    width: 200px;
+    background-color: darkkhaki;
+}
+
+#box400 {
+    height: 100px;
+    width: 200px;
+    background-color: indianred;
+}
+
+#box500 {
+    height: 100px;
+    width: 200px;
+    background-color: slateblue;
+}
+
+#op{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+@media (min-width:700px) {
+    #op {
+        background-color: blue;
+        color: white;
+        font-style: italic;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:500px) and (max-width:600px) {
+    #op {
+        background-color: white;
+        color: red;
+    }
+}
